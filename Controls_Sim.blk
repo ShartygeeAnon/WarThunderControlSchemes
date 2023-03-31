@@ -256,6 +256,18 @@ controls{
       mouseButton:i=0
     }
 
+    ID_FIRE_HUMAN{
+      mouseButton:i=0
+    }
+
+    ID_FIRE_HUMAN_SECONDARY_GUN{
+      mouseButton:i=4
+    }
+
+    ID_FIRE_HUMAN_SPECIAL_GUN{
+      mouseButton:i=3
+    }
+
     ID_FIRE_MGUNS_HELICOPTER{}
     ID_FIRE_PRIMARY{
       mouseButton:i=0
@@ -389,6 +401,18 @@ controls{
     ID_HIDE_HUD{
       keyboardKey:i=43
       keyboardKey:i=56
+    }
+
+    ID_HUMAN_NIGHT_VISION{
+      keyboardKey:i=49
+    }
+
+    ID_HUMAN_SMOKE_GRENADE{
+      keyboardKey:i=22
+    }
+
+    ID_HUMAN_SPRINT{
+      keyboardKey:i=42
     }
 
     ID_IGNITE_BOOSTERS{
@@ -780,6 +804,11 @@ controls{
       keyboardKey:i=36
     }
 
+    ID_SENSOR_SWITCH_HUMAN{
+      keyboardKey:i=15
+      keyboardKey:i=36
+    }
+
     ID_SENSOR_SWITCH_SHIP{
       keyboardKey:i=58
       keyboardKey:i=36
@@ -798,6 +827,10 @@ controls{
       keyboardKey:i=38
     }
 
+    ID_SENSOR_TARGET_LOCK_HUMAN{
+      keyboardKey:i=38
+    }
+
     ID_SENSOR_TARGET_LOCK_SHIP{
       keyboardKey:i=38
     }
@@ -811,6 +844,10 @@ controls{
     }
 
     ID_SENSOR_TARGET_SWITCH_HELICOPTER{
+      keyboardKey:i=36
+    }
+
+    ID_SENSOR_TARGET_SWITCH_HUMAN{
       keyboardKey:i=36
     }
 
@@ -1028,6 +1065,11 @@ controls{
       keyboardKey:i=22
     }
 
+    ID_START_SUPPORT_PLANE_HUMAN{
+      keyboardKey:i=15
+      keyboardKey:i=22
+    }
+
     ID_START_SUPPORT_PLANE_SHIP{
       keyboardKey:i=15
       keyboardKey:i=22
@@ -1052,6 +1094,10 @@ controls{
     }
 
     ID_SUPPORT_PLANE_ORBITING{
+      keyboardKey:i=22
+    }
+
+    ID_SUPPORT_PLANE_ORBITING_HUMAN{
       keyboardKey:i=22
     }
 
@@ -1143,6 +1189,10 @@ controls{
 
     ID_TARGETING_HOLD_GM{
       keyboardKey:i=6
+    }
+
+    ID_TARGETING_HOLD_HUMAN{
+      keyboardKey:i=33
     }
 
     ID_TARGETING_HOLD_SHIP{
@@ -1418,6 +1468,10 @@ controls{
     }
 
     ID_WEAPON_LOCK_HELICOPTER{
+      keyboardKey:i=19
+    }
+
+    ID_WEAPON_LOCK_HUMAN{
       keyboardKey:i=19
     }
 
@@ -2024,6 +2078,22 @@ controls{
     helicopter_zoom_rangeSet{
       keyboardKey:i=15
       mouseButton:i=2
+    }
+
+    human_strafe_rangeMax{
+      keyboardKey:i=32
+    }
+
+    human_strafe_rangeMin{
+      keyboardKey:i=30
+    }
+
+    human_walk_rangeMax{
+      keyboardKey:i=17
+    }
+
+    human_walk_rangeMin{
+      keyboardKey:i=31
     }
 
     mixture_rangeMax{
@@ -2714,6 +2784,14 @@ controls{
       kMul:r=2
       relSens:r=0.81
       relative:b=yes
+    }
+
+    human_strafe{
+      relSens:r=0.81
+    }
+
+    human_walk{
+      relSens:r=0.64
     }
 
     mixture{
