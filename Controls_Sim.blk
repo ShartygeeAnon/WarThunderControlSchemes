@@ -260,6 +260,10 @@ controls{
       mouseButton:i=0
     }
 
+    ID_FIRE_HUMAN_MACHINE_GUN{
+      mouseButton:i=4
+    }
+
     ID_FIRE_HUMAN_SECONDARY_GUN{
       mouseButton:i=4
     }
