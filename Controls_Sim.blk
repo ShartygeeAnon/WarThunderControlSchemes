@@ -419,6 +419,10 @@ controls{
       keyboardKey:i=42
     }
 
+    ID_HUMAN_TOGGLE_RANGEFINDER{
+      keyboardKey:i=45
+    }
+
     ID_IGNITE_BOOSTERS{
       keyboardKey:i=42
       keyboardKey:i=58
