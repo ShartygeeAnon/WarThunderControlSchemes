@@ -2257,11 +2257,6 @@ controls{
       keyboardKey:i=31
     }
 
-    ship_main_engine_rangeSet{
-      keyboardKey:i=31
-      keyboardKey:i=17
-    }
-
     ship_sensor_cue_x_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=32
