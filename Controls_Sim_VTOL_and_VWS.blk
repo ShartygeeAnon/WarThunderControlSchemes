@@ -619,9 +619,25 @@ controls{
       keyboardKey:i=59
     }
 
+    ID_REPLAY_CAMERA_HORIZONTAL_LOCK{
+      keyboardKey:i=38
+    }
+
     ID_REPLAY_CAMERA_HOVER{
       keyboardKey:i=29
       keyboardKey:i=67
+    }
+
+    ID_REPLAY_CAMERA_LOCK_SPEED{
+      keyboardKey:i=39
+    }
+
+    ID_REPLAY_CAMERA_LOCK_SPEED_TO_PLANE{
+      keyboardKey:i=40
+    }
+
+    ID_REPLAY_CAMERA_NEXT_PLANE{
+      keyboardKey:i=207
     }
 
     ID_REPLAY_CAMERA_OPERATOR{
@@ -632,6 +648,15 @@ controls{
     ID_REPLAY_CAMERA_RANDOMIZE{
       keyboardKey:i=29
       keyboardKey:i=64
+    }
+
+    ID_REPLAY_CAMERA_TWO_PLANES{
+      keyboardKey:i=29
+      keyboardKey:i=68
+    }
+
+    ID_REPLAY_CAMERA_WIGGLE{
+      keyboardKey:i=43
     }
 
     ID_REPLAY_CAMERA_WING{
@@ -661,6 +686,10 @@ controls{
 
     ID_REPLAY_SLOWER{
       keyboardKey:i=209
+    }
+
+    ID_REPLAY_TOGGLE_DETACHED_MOVE_DIR{
+      keyboardKey:i=199
     }
 
     ID_REQUEST_DETECT_ALLY_HELI{
@@ -3002,6 +3031,7 @@ controls{
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=no
     USEROPT_FORCE_GAIN:i=0
     USEROPT_FREE_CAMERA_INERTIA:i=0
+    USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
     USEROPT_GUNNER_INVERTY:b=no
     USEROPT_GUNNER_VIEW_SENSE:i=100
     USEROPT_GUNNER_VIEW_ZOOM_SENS:i=100
@@ -3048,7 +3078,7 @@ controls{
 
   deviceMapping{
     joystick{
-      connected:b=yes
+      connected:b=no
       devId:t="x360"
       axesOffset:i=0
       name:t="Controller 1"
