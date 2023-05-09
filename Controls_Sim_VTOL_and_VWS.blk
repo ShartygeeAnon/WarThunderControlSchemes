@@ -2650,6 +2650,7 @@ controls{
     }
 
     gm_sight_distance{
+      mouseAxisId:i=3
       innerDeadzone:r=0
       relSens:r=0.09
       relative:b=yes
@@ -2675,11 +2676,8 @@ controls{
       kMul:r=0.02
     }
 
-    gm_wheelmenu_x{
-      relSens:r=0.81
-    }
-
     gm_zoom{
+      mouseAxisId:i=-1
       innerDeadzone:r=0
       kMul:r=2
       relSens:r=0.64

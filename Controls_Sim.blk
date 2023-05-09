@@ -2808,7 +2808,7 @@ controls{
     }
 
     human_walk{
-      relSens:r=0.64
+      relSens:r=0.81
     }
 
     mixture{
