@@ -3117,7 +3117,7 @@ settings{
   aimAccelerationDelaySubmarine:r=0.5
   mouseZMultAir:r=0.5
   mouseZMultHelicopter:r=0.5
-  mouseZMultTank:r=0.3
+  mouseZMultTank:r=0.5
   mouseZMultShip:r=0.4
   mouseZMultSubmarine:r=0.5
   gamepadMinVibration:r=0
