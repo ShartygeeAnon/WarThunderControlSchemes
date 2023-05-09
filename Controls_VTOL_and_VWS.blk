@@ -1732,14 +1732,6 @@ controls{
       keyboardKey:i=76
     }
 
-    gm_sight_distance_rangeMax{
-      mouseButton:i=6
-    }
-
-    gm_sight_distance_rangeMin{
-      mouseButton:i=5
-    }
-
     gm_sight_distance_rangeSet{
       keyboardKey:i=15
       keyboardKey:i=45
@@ -2328,14 +2320,6 @@ controls{
       keyboardKey:i=76
     }
 
-    ship_sight_distance_rangeMax{
-      mouseButton:i=5
-    }
-
-    ship_sight_distance_rangeMin{
-      mouseButton:i=6
-    }
-
     ship_sight_distance_rangeSet{
       keyboardKey:i=15
       keyboardKey:i=45
@@ -2644,6 +2628,7 @@ controls{
     }
 
     gm_sight_distance{
+      mouseAxisId:i=3
       innerDeadzone:r=0
       relSens:r=0.09
       relative:b=yes
@@ -2891,8 +2876,9 @@ controls{
     }
 
     ship_sight_distance{
+      mouseAxisId:i=4
       innerDeadzone:r=0
-      relSens:r=0.16
+      relSens:r=0.09
       relative:b=yes
     }
 
@@ -3053,7 +3039,7 @@ controls{
 
   deviceMapping{
     joystick{
-      connected:b=no
+      connected:b=yes
       devId:t="x360"
       axesOffset:i=0
       name:t="Controller 1"
@@ -3131,7 +3117,7 @@ settings{
   aimAccelerationDelaySubmarine:r=0.5
   mouseZMultAir:r=0.5
   mouseZMultHelicopter:r=0.5
-  mouseZMultTank:r=0.3
+  mouseZMultTank:r=0.5
   mouseZMultShip:r=0.4
   mouseZMultSubmarine:r=0.5
   gamepadMinVibration:r=0
