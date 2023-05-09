@@ -2338,14 +2338,6 @@ controls{
       keyboardKey:i=76
     }
 
-    ship_sight_distance_rangeMax{
-      mouseButton:i=5
-    }
-
-    ship_sight_distance_rangeMin{
-      mouseButton:i=6
-    }
-
     ship_sight_distance_rangeSet{
       keyboardKey:i=15
       keyboardKey:i=45
@@ -2912,7 +2904,7 @@ controls{
     ship_sight_distance{
       mouseAxisId:i=4
       innerDeadzone:r=0
-      relSens:r=0.16
+      relSens:r=0.09
       relative:b=yes
     }
 
