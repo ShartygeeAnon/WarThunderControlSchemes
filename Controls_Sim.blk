@@ -2603,6 +2603,7 @@ controls{
     climb{
       innerDeadzone:r=0
       relSens:r=0.49
+      relative:b=no
     }
 
     elevator{
@@ -2735,6 +2736,7 @@ controls{
 
     helicopter_climb{
       relSens:r=0.49
+      relative:b=no
     }
 
     helicopter_collective{
@@ -3066,7 +3068,7 @@ controls{
 
   deviceMapping{
     joystick{
-      connected:b=yes
+      connected:b=no
       devId:t="x360"
       axesOffset:i=0
       name:t="Controller 1"
