@@ -3024,7 +3024,7 @@ controls{
     USEROPT_MOUSE_USAGE:i=1
     USEROPT_MOUSE_USAGE_NO_AIM:i=1
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
-    USEROPT_RUDDER_MULTIPLIER:i=100
+    USEROPT_RUDDER_MULTIPLIER:i=15
     USEROPT_SEPERATED_ENGINE_CONTROL_SHIP:b=no
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
     USEROPT_SINGLE_SHOT_BY_TURRET:b=no
@@ -3075,7 +3075,7 @@ controls{
 settings{
   aileronsMultiplier:r=1
   elevatorMultiplier:r=1
-  rudderMultiplier:r=1
+  rudderMultiplier:r=0.15
   helicopterCyclicRollMultiplier:r=1
   helicopterCyclicPitchMultiplier:r=1
   helicopterPedalsMultiplier:r=1
