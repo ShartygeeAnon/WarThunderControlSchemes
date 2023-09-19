@@ -1613,6 +1613,7 @@ controls{
       keyboardKey:i=45
     }
 
+    head_pos_x{}
     head_pos_x_rangeMax{
       keyboardKey:i=54
       keyboardKey:i=72
@@ -1628,6 +1629,7 @@ controls{
       keyboardKey:i=76
     }
 
+    head_pos_y{}
     head_pos_y_rangeMax{
       keyboardKey:i=54
       keyboardKey:i=71
@@ -1655,6 +1657,7 @@ controls{
       mouseButton:i=2
     }
 
+    head_pos_z{}
     head_pos_z_rangeMax{
       keyboardKey:i=54
       keyboardKey:i=77
