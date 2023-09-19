@@ -103,7 +103,7 @@ controls{
     }
 
     ID_CAMERA_OPTICS_HELICOPTER{
-      keyboardKey:i=65
+      keyboardKey:i=66
     }
 
     ID_CAMERA_SEEKER{
@@ -2933,7 +2933,7 @@ settings{
   mouseZMultTank:r=0.5
   mouseZMultShip:r=0.4
   mouseZMultSubmarine:r=0.5
-  gamepadMinVibration:r=0.05
+  gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.95
   cameraMouseSpeed:r=2.75
