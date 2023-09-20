@@ -126,6 +126,7 @@ controls{
       mouseButton:i=2
     }
 
+    ID_CAMERA_VIEW_DOWN{}
     ID_CAMERA_VIRTUAL_FPS{
       keyboardKey:i=61
     }
