@@ -531,6 +531,7 @@ controls{
       keyboardKey:i=81
     }
 
+    ID_PTT{}
     ID_RADIATOR_AUTO{
       keyboardKey:i=54
       keyboardKey:i=71
