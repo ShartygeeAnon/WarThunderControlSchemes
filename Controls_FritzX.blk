@@ -2782,11 +2782,14 @@ controls{
     weapon_aim_heading{
       innerDeadzone:r=0
       relSens:r=0.81
+      relative:b=yes
     }
 
     weapon_aim_pitch{
       innerDeadzone:r=0
+      inverse:b=yes
       relSens:r=0.81
+      relative:b=yes
     }
 
     zoom{
