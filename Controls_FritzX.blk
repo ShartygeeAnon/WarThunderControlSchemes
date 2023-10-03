@@ -299,6 +299,7 @@ controls{
       keyboardKey:i=3
     }
 
+    ID_FLAPS{}
     ID_FLAPS_DOWN{
       mouseButton:i=4
     }

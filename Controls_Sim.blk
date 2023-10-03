@@ -302,6 +302,7 @@ controls{
       keyboardKey:i=3
     }
 
+    ID_FLAPS{}
     ID_FLAPS_DOWN{
       mouseButton:i=4
     }
@@ -2805,13 +2806,11 @@ controls{
     weapon_aim_heading{
       innerDeadzone:r=0
       relSens:r=0.49
-      relative:b=no
     }
 
     weapon_aim_pitch{
       innerDeadzone:r=0
       relSens:r=0.49
-      relative:b=no
     }
 
     zoom{
