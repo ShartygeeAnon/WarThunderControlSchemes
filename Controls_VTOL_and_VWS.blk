@@ -1175,6 +1175,11 @@ controls{
       keyboardKey:i=27
     }
 
+    ID_TOGGLE_HMD{
+      keyboardKey:i=43
+      keyboardKey:i=27
+    }
+
     ID_TOGGLE_INSTRUCTOR{
       keyboardKey:i=15
       keyboardKey:i=41
