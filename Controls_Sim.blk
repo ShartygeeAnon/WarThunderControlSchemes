@@ -161,6 +161,7 @@ controls{
       keyboardKey:i=24
     }
 
+    ID_COLLAPSE_ACTION_BAR{}
     ID_COMMANDER_AIM_MODE{
       keyboardKey:i=15
       keyboardKey:i=48
