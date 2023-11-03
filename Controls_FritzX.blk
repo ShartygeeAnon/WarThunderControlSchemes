@@ -1012,6 +1012,10 @@ controls{
       keyboardKey:i=36
     }
 
+    ID_SUBMARINE_TOGGLE_PERISCOPE{
+      keyboardKey:i=48
+    }
+
     ID_SUBMARINE_WEAPON_TOGGLE_ACTIVE_SENSOR{}
     ID_SUBMARINE_WEAPON_TOGGLE_ACTIVE_SENSOR{
       keyboardKey:i=15
@@ -1269,9 +1273,8 @@ controls{
       keyboardKey:i=47
     }
 
-    ID_TOGGLE_VIEW_SUBMARINE{}
     ID_TOGGLE_VIEW_SUBMARINE{
-      keyboardKey:i=181
+      keyboardKey:i=47
     }
 
     ID_TOGGLE_VIEW_SUIT{
@@ -2799,7 +2802,6 @@ controls{
     submarine_depth{
       mouseAxisId:i=5
       relSens:r=0.81
-      relative:b=yes
     }
 
     submarine_main_engine{
@@ -3021,7 +3023,7 @@ settings{
   mouseZMultHelicopter:r=0.5
   mouseZMultTank:r=0.5
   mouseZMultShip:r=0.4
-  mouseZMultSubmarine:r=0.4
+  mouseZMultSubmarine:r=0.33
   gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.95
