@@ -977,18 +977,57 @@ controls{
     }
 
     ID_SUBMARINE_ACOUSTIC_COUNTERMEASURES{}
+    ID_SUBMARINE_ACOUSTIC_COUNTERMEASURES{
+      keyboardKey:i=45
+    }
+
     ID_SUBMARINE_ACTION_BAR_ITEM_11{}
+    ID_SUBMARINE_ACTION_BAR_ITEM_11{
+      keyboardKey:i=8
+    }
+
     ID_SUBMARINE_ACTION_BAR_ITEM_6{}
+    ID_SUBMARINE_ACTION_BAR_ITEM_6{
+      keyboardKey:i=7
+    }
+
     ID_SUBMARINE_FULL_STOP{}
+    ID_SUBMARINE_FULL_STOP{
+      keyboardKey:i=17
+      keyboardKey:i=31
+    }
+
     ID_SUBMARINE_KILLSTREAK_WHEEL_MENU{
       keyboardKey:i=6
     }
 
     ID_SUBMARINE_REPAIR_BREACHES{}
+    ID_SUBMARINE_REPAIR_BREACHES{
+      keyboardKey:i=9
+    }
+
     ID_SUBMARINE_SWITCH_ACTIVE_SONAR{}
+    ID_SUBMARINE_SWITCH_ACTIVE_SONAR{
+      keyboardKey:i=58
+      keyboardKey:i=36
+    }
+
     ID_SUBMARINE_WEAPON_TOGGLE_ACTIVE_SENSOR{}
+    ID_SUBMARINE_WEAPON_TOGGLE_ACTIVE_SENSOR{
+      keyboardKey:i=15
+      keyboardKey:i=36
+    }
+
     ID_SUBMARINE_WEAPON_TOGGLE_SELF_HOMMING{}
+    ID_SUBMARINE_WEAPON_TOGGLE_SELF_HOMMING{
+      keyboardKey:i=36
+    }
+
     ID_SUBMARINE_WEAPON_TORPEDOES{}
+    ID_SUBMARINE_WEAPON_TORPEDOES{
+      keyboardKey:i=57
+    }
+
     ID_SUPERCHARGER{
       keyboardKey:i=54
       keyboardKey:i=76
@@ -1231,6 +1270,10 @@ controls{
     }
 
     ID_TOGGLE_VIEW_SUBMARINE{}
+    ID_TOGGLE_VIEW_SUBMARINE{
+      keyboardKey:i=181
+    }
+
     ID_TOGGLE_VIEW_SUIT{
       keyboardKey:i=47
     }
@@ -2188,14 +2231,49 @@ controls{
     submarine_depth_rangeMax{}
     submarine_depth_rangeMin{}
     submarine_main_engine_rangeMax{}
-    submarine_main_engine_rangeMin{}
-    submarine_main_engine_rangeSet{
-      keyboardKey:i=31
+    submarine_main_engine_rangeMax{
       keyboardKey:i=17
     }
 
-    submarine_steering_rangeMax{}
-    submarine_steering_rangeMin{}
+    submarine_main_engine_rangeMin{}
+    submarine_main_engine_rangeMin{
+      keyboardKey:i=31
+    }
+
+    submarine_main_engine_rangeSet{}
+    submarine_steering_rangeMax{
+      keyboardKey:i=30
+    }
+
+    submarine_steering_rangeMin{
+      keyboardKey:i=32
+    }
+
+    submarine_steering_rangeSet{
+      keyboardKey:i=30
+      keyboardKey:i=32
+    }
+
+    submarine_zoom_rangeMax{
+      keyboardKey:i=58
+      mouseButton:i=5
+    }
+
+    submarine_zoom_rangeMin{
+      keyboardKey:i=58
+      mouseButton:i=6
+    }
+
+    submarine_zoom_rangeSet{
+      keyboardKey:i=58
+      mouseButton:i=2
+    }
+
+    submarine_zoom_rangeSet{
+      keyboardKey:i=58
+      keyboardKey:i=45
+    }
+
     sweep_rangeMax{
       keyboardKey:i=58
       mouseButton:i=3
@@ -2718,6 +2796,27 @@ controls{
       relSens:r=0.81
     }
 
+    submarine_depth{
+      mouseAxisId:i=5
+      relSens:r=0.81
+      relative:b=yes
+    }
+
+    submarine_main_engine{
+      innerDeadzone:r=0
+      relSens:r=0.81
+    }
+
+    submarine_steering{
+      innerDeadzone:r=0
+    }
+
+    submarine_zoom{
+      mouseAxisId:i=-1
+      innerDeadzone:r=0
+      relSens:r=0.81
+    }
+
     sweep{
       innerDeadzone:r=0
       relSens:r=0.49
@@ -2922,7 +3021,7 @@ settings{
   mouseZMultHelicopter:r=0.5
   mouseZMultTank:r=0.5
   mouseZMultShip:r=0.4
-  mouseZMultSubmarine:r=0.5
+  mouseZMultSubmarine:r=0.4
   gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.95
