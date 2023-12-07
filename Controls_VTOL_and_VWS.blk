@@ -658,6 +658,10 @@ controls{
       keyboardKey:i=35
     }
 
+    ID_SELECT_GM_GUN_SPECIAL{
+      keyboardKey:i=35
+    }
+
     ID_SENSOR_ACM_SWITCH{
       keyboardKey:i=4
     }
