@@ -2284,12 +2284,10 @@ controls{
     }
 
     sweep_rangeMax{
-      keyboardKey:i=58
       mouseButton:i=3
     }
 
     sweep_rangeMin{
-      keyboardKey:i=58
       mouseButton:i=4
     }
 
