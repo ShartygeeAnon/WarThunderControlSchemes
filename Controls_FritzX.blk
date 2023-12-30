@@ -98,10 +98,6 @@ controls{
       keyboardKey:i=46
     }
 
-    ID_CAMERA_OPTICS{
-      keyboardKey:i=66
-    }
-
     ID_CAMERA_OPTICS_HELICOPTER{
       keyboardKey:i=66
     }
@@ -208,6 +204,7 @@ controls{
       keyboardKey:i=21
     }
 
+    ID_EXIT_SHOOTING_CYCLE_MODE{}
     ID_FBW_MODE{
       keyboardKey:i=58
       keyboardKey:i=41
@@ -256,10 +253,6 @@ controls{
 
     ID_FIRE_MGUNS{}
     ID_FIRE_MGUNS_HELICOPTER{}
-    ID_FIRE_PRIMARY{
-      mouseButton:i=0
-    }
-
     ID_FIRE_PRIMARY_HELICOPTER{
       mouseButton:i=0
     }
