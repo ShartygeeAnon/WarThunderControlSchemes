@@ -16,4 +16,4 @@ Several control schemes that make more efficient use of your keyboard and mouse 
 5) **Controls_Sim_and_VWS.blk** - same as Controls_Sim.blk, but with flap and wing sweep/VTOL buttons swapped
 
 ## Recommendations
-1) Bind **X** (Fire countermeasures and Rangefinder), **L** (Lock Radar/IRST on target) and **Tab + ~** (Toggle control mode) to your additional mouse buttons for convenience
+1) Bind **X** (Fire countermeasures and Rangefinder), **L** (Lock Radar/IRST on target) and **Tab + ~** (Toggle control mode) to the additional mouse buttons (the ones not recognized by games as actual mouse buttons and usually used for stuff like DPI cycling by default, *NOT* the two proper side buttons often known as Mouse 4 and Mouse 5) if you have any for convenience
