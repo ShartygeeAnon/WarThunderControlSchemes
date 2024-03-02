@@ -599,6 +599,10 @@ controls{
       keyboardKey:i=199
     }
 
+    ID_REPLAY_TOGGLE_SENSOR_VIEW{
+      keyboardKey:i=14
+    }
+
     ID_REQUEST_DETECT_ALLY_HELI{
       keyboardKey:i=43
       keyboardKey:i=83
