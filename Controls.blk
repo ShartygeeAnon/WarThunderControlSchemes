@@ -74,6 +74,10 @@ controls{
       keyboardKey:i=6
     }
 
+    ID_CAMERA_FOLLOW_OBJECT{
+      keyboardKey:i=181
+    }
+
     ID_CAMERA_FPS{
       keyboardKey:i=64
     }
@@ -1128,20 +1132,12 @@ controls{
       keyboardKey:i=6
     }
 
-    ID_TARGETING_HOLD_GM{
-      keyboardKey:i=181
-    }
-
     ID_TARGETING_HOLD_HUMAN{
       keyboardKey:i=33
     }
 
     ID_TARGETING_HOLD_SHIP{
       keyboardKey:i=6
-    }
-
-    ID_TARGETING_HOLD_SHIP{
-      keyboardKey:i=181
     }
 
     ID_TARGETING_HOLD_SUIT{
@@ -1152,16 +1148,8 @@ controls{
       keyboardKey:i=6
     }
 
-    ID_TARGET_CAMERA{
-      keyboardKey:i=181
-    }
-
     ID_TARGET_CAMERA_HELICOPTER{
       keyboardKey:i=6
-    }
-
-    ID_TARGET_CAMERA_HELICOPTER{
-      keyboardKey:i=181
     }
 
     ID_TOGGLE_1_ENGINE_CONTROL{
