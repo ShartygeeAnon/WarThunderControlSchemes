@@ -1468,6 +1468,10 @@ controls{
       keyboardKey:i=76
     }
 
+    camx_rangeSet{
+      keyboardKey:i=47
+    }
+
     camy_rangeMax{
       keyboardKey:i=44
       keyboardKey:i=17
@@ -1487,6 +1491,10 @@ controls{
     camy_rangeSet{
       keyboardKey:i=54
       keyboardKey:i=76
+    }
+
+    camy_rangeSet{
+      keyboardKey:i=47
     }
 
     climb_rangeMax{
@@ -1702,14 +1710,34 @@ controls{
       keyboardKey:i=77
     }
 
+    head_pos_z_rangeMax{
+      keyboardKey:i=44
+      keyboardKey:i=32
+    }
+
     head_pos_z_rangeMin{
       keyboardKey:i=54
       keyboardKey:i=75
     }
 
+    head_pos_z_rangeMin{
+      keyboardKey:i=44
+      keyboardKey:i=30
+    }
+
     head_pos_z_rangeSet{
       keyboardKey:i=54
       keyboardKey:i=76
+    }
+
+    head_pos_z_rangeSet{
+      keyboardKey:i=44
+      keyboardKey:i=32
+      keyboardKey:i=30
+    }
+
+    head_pos_z_rangeSet{
+      keyboardKey:i=47
     }
 
     helicopter_atgm_aim_x_rangeMax{
@@ -1767,6 +1795,10 @@ controls{
       keyboardKey:i=76
     }
 
+    helicopter_camx_rangeSet{
+      keyboardKey:i=47
+    }
+
     helicopter_camy_rangeMax{
       keyboardKey:i=44
       keyboardKey:i=17
@@ -1786,6 +1818,10 @@ controls{
     helicopter_camy_rangeSet{
       keyboardKey:i=54
       keyboardKey:i=76
+    }
+
+    helicopter_camy_rangeSet{
+      keyboardKey:i=47
     }
 
     helicopter_climb_rangeSet{
@@ -2473,15 +2509,13 @@ controls{
 
     camx{
       innerDeadzone:r=0
-      relSens:r=0.81
-      relStep:r=0.5
+      relSens:r=0.64
       relative:b=yes
     }
 
     camy{
       innerDeadzone:r=0
-      relSens:r=0.81
-      relStep:r=0.5
+      relSens:r=0.64
       relative:b=yes
     }
 
@@ -2586,8 +2620,7 @@ controls{
 
     head_pos_z{
       innerDeadzone:r=0
-      relSens:r=0.81
-      relStep:r=0.5
+      relSens:r=0.64
       relative:b=yes
     }
 
@@ -2603,15 +2636,13 @@ controls{
 
     helicopter_camx{
       innerDeadzone:r=0
-      relSens:r=0.81
-      relStep:r=0.5
+      relSens:r=0.64
       relative:b=yes
     }
 
     helicopter_camy{
       innerDeadzone:r=0
-      relSens:r=0.81
-      relStep:r=0.5
+      relSens:r=0.64
       relative:b=yes
     }
 
