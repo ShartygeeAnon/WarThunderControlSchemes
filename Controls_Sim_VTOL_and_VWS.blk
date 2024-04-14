@@ -218,10 +218,36 @@ controls{
       keyboardKey:i=41
     }
 
-    ID_FIRE_ADDITIONAL_GUNS{}
+    ID_FIRE_ADDITIONAL_GUNS{
+      keyboardKey:i=31
+      keyboardKey:i=18
+      keyboardKey:i=38
+      keyboardKey:i=46
+    }
+
     ID_FIRE_ADDITIONAL_GUNS_HELICOPTER{}
-    ID_FIRE_CANNONS{}
+    ID_FIRE_ADDITIONAL_GUNS_HELICOPTER{
+      keyboardKey:i=31
+      keyboardKey:i=18
+      keyboardKey:i=38
+      keyboardKey:i=46
+    }
+
+    ID_FIRE_CANNONS{
+      keyboardKey:i=17
+      keyboardKey:i=18
+      keyboardKey:i=30
+      keyboardKey:i=25
+    }
+
     ID_FIRE_CANNONS_HELICOPTER{}
+    ID_FIRE_CANNONS_HELICOPTER{
+      keyboardKey:i=17
+      keyboardKey:i=18
+      keyboardKey:i=30
+      keyboardKey:i=25
+    }
+
     ID_FIRE_GM_MACHINE_GUN{
       keyboardKey:i=20
     }
@@ -254,8 +280,19 @@ controls{
       mouseButton:i=3
     }
 
-    ID_FIRE_MGUNS{}
+    ID_FIRE_MGUNS{
+      keyboardKey:i=22
+      keyboardKey:i=31
+      keyboardKey:i=18
+    }
+
     ID_FIRE_MGUNS_HELICOPTER{}
+    ID_FIRE_MGUNS_HELICOPTER{
+      keyboardKey:i=22
+      keyboardKey:i=31
+      keyboardKey:i=18
+    }
+
     ID_FIRE_PRIMARY_HELICOPTER{
       mouseButton:i=0
     }
@@ -982,8 +1019,19 @@ controls{
       keyboardKey:i=22
     }
 
+    ID_SUBMARINE_ACOUSTIC_COUNTERMEASURES{}
     ID_SUBMARINE_ACOUSTIC_COUNTERMEASURES{
       keyboardKey:i=45
+    }
+
+    ID_SUBMARINE_ACTION_BAR_ITEM_11{}
+    ID_SUBMARINE_ACTION_BAR_ITEM_11{
+      keyboardKey:i=8
+    }
+
+    ID_SUBMARINE_ACTION_BAR_ITEM_6{}
+    ID_SUBMARINE_ACTION_BAR_ITEM_6{
+      keyboardKey:i=7
     }
 
     ID_SUBMARINE_FULL_STOP{}
@@ -2278,13 +2326,21 @@ controls{
 
     submarine_depth_rangeMax{}
     submarine_depth_rangeMin{}
+    submarine_main_engine_rangeMax{}
+    submarine_main_engine_rangeMax{
+      keyboardKey:i=17
+    }
+
+    submarine_main_engine_rangeMin{}
+    submarine_main_engine_rangeMin{
+      keyboardKey:i=31
+    }
+
     submarine_main_engine_rangeSet{}
-    submarine_steering_rangeMax{}
     submarine_steering_rangeMax{
       keyboardKey:i=30
     }
 
-    submarine_steering_rangeMin{}
     submarine_steering_rangeMin{
       keyboardKey:i=32
     }
