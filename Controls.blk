@@ -966,7 +966,7 @@ controls{
     }
 
     ID_SHOW_MOUSE_CURSOR{
-      keyboardKey:i=56
+      keyboardKey:i=184
     }
 
     ID_SHOW_MULTIFUNC_WHEEL_MENU{
@@ -1984,33 +1984,33 @@ controls{
     }
 
     helicopter_trim_ailerons_rangeMax{
-      keyboardKey:i=54
-      keyboardKey:i=207
+      keyboardKey:i=58
+      keyboardKey:i=32
     }
 
     helicopter_trim_ailerons_rangeMin{
-      keyboardKey:i=54
-      keyboardKey:i=211
+      keyboardKey:i=58
+      keyboardKey:i=30
     }
 
     helicopter_trim_elevator_rangeMax{
-      keyboardKey:i=54
-      keyboardKey:i=201
+      keyboardKey:i=58
+      keyboardKey:i=17
     }
 
     helicopter_trim_elevator_rangeMin{
-      keyboardKey:i=54
-      keyboardKey:i=209
+      keyboardKey:i=58
+      keyboardKey:i=31
     }
 
     helicopter_trim_rudder_rangeMax{
-      keyboardKey:i=54
-      keyboardKey:i=199
+      keyboardKey:i=58
+      keyboardKey:i=18
     }
 
     helicopter_trim_rudder_rangeMin{
-      keyboardKey:i=54
-      keyboardKey:i=210
+      keyboardKey:i=58
+      keyboardKey:i=16
     }
 
     helicopter_yaw_rangeMax{
@@ -2463,7 +2463,7 @@ controls{
     }
 
     weapon_aim_heading_rangeMax{
-      keyboardKey:i=15
+      keyboardKey:i=56
       keyboardKey:i=32
     }
 
@@ -2472,7 +2472,7 @@ controls{
     }
 
     weapon_aim_heading_rangeMin{
-      keyboardKey:i=15
+      keyboardKey:i=56
       keyboardKey:i=30
     }
 
@@ -2485,12 +2485,18 @@ controls{
       keyboardKey:i=76
     }
 
+    weapon_aim_heading_rangeSet{
+      keyboardKey:i=56
+      keyboardKey:i=32
+      keyboardKey:i=30
+    }
+
     weapon_aim_pitch_rangeMax{
       keyboardKey:i=80
     }
 
     weapon_aim_pitch_rangeMax{
-      keyboardKey:i=15
+      keyboardKey:i=56
       keyboardKey:i=31
     }
 
@@ -2499,7 +2505,7 @@ controls{
     }
 
     weapon_aim_pitch_rangeMin{
-      keyboardKey:i=15
+      keyboardKey:i=56
       keyboardKey:i=17
     }
 
@@ -2510,6 +2516,12 @@ controls{
 
     weapon_aim_pitch_rangeSet{
       keyboardKey:i=76
+    }
+
+    weapon_aim_pitch_rangeSet{
+      keyboardKey:i=56
+      keyboardKey:i=31
+      keyboardKey:i=17
     }
 
     zoom_rangeMax{
