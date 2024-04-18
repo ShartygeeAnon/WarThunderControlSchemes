@@ -17,3 +17,4 @@ Several control schemes that make more efficient use of your keyboard and mouse 
 
 ## Recommendations
 1) Bind **X** (Fire countermeasures and Rangefinder), **L** (Lock Radar/IRST on target) and **Tab + ~** (Toggle control mode) to the additional mouse buttons (the ones not recognized by games as actual mouse buttons and usually used for stuff like DPI cycling by default, *NOT* the two proper side buttons often known as Mouse 4 and Mouse 5) if you have any for convenience
+2) Consider using [Aruco](https://github.com/opentrack/opentrack/wiki/Aruco-tracker) as a *very* affordable yet reliable alternative to TrackIR to have a hands-free freelook in Sim. All it requires is a webcam (a phone's camera can also be used as one if you're *really* desperate) and some extremely basic handicraft [skills](./assets/aruco_example.jpg).
