@@ -185,6 +185,15 @@ controls{
       mouseButton:i=3
     }
 
+    ID_COUNTERMEASURES_CHAFF{
+      keyboardKey:i=15
+      keyboardKey:i=45
+    }
+
+    ID_COUNTERMEASURES_FLARES{
+      keyboardKey:i=45
+    }
+
     ID_DESIGNATE_TARGET{
       keyboardKey:i=15
       keyboardKey:i=19
@@ -351,10 +360,7 @@ controls{
       mouseButton:i=4
     }
 
-    ID_FLARES{
-      keyboardKey:i=45
-    }
-
+    ID_FLARES{}
     ID_FLARES_HELICOPTER{
       keyboardKey:i=45
     }
@@ -928,6 +934,7 @@ controls{
       keyboardKey:i=24
     }
 
+    ID_SHIP_SWITCH_TRIGGER_GROUP{}
     ID_SHIP_WEAPON_DEPTH_CHARGE{
       keyboardKey:i=20
     }
