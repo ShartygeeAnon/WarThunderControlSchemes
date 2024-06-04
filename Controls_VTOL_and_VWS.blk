@@ -191,6 +191,15 @@ controls{
       keyboardKey:i=45
     }
 
+    ID_COUNTERMEASURE_CHAFF_HELICOPTER{
+      keyboardKey:i=15
+      keyboardKey:i=45
+    }
+
+    ID_COUNTERMEASURE_FLARES_HELICOPTER{
+      keyboardKey:i=45
+    }
+
     ID_DESIGNATE_TARGET{
       keyboardKey:i=15
       keyboardKey:i=19
@@ -358,10 +367,6 @@ controls{
     }
 
     ID_FLARES{}
-    ID_FLARES_HELICOPTER{
-      keyboardKey:i=45
-    }
-
     ID_FLIGHTMENU_SETUP{
       joyButton:i=4
     }
