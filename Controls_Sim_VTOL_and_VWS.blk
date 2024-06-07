@@ -176,12 +176,12 @@ controls{
     }
 
     ID_CONTROL_MODE{
-      keyboardKey:i=15
+      keyboardKey:i=58
       mouseButton:i=4
     }
 
     ID_CONTROL_MODE{
-      keyboardKey:i=15
+      keyboardKey:i=58
       mouseButton:i=3
     }
 
@@ -352,7 +352,7 @@ controls{
 
     ID_FLAPS{}
     ID_FLAPS_DOWN{
-      keyboardKey:i=58
+      keyboardKey:i=15
       mouseButton:i=4
     }
 
@@ -361,7 +361,7 @@ controls{
     }
 
     ID_FLAPS_UP{
-      keyboardKey:i=58
+      keyboardKey:i=15
       mouseButton:i=3
     }
 
@@ -1132,12 +1132,12 @@ controls{
     }
 
     ID_SWEEP_MODE{
-      keyboardKey:i=15
+      keyboardKey:i=58
       mouseButton:i=4
     }
 
     ID_SWEEP_MODE{
-      keyboardKey:i=15
+      keyboardKey:i=58
       mouseButton:i=3
     }
 

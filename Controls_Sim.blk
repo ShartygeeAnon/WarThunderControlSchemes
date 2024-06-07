@@ -176,12 +176,12 @@ controls{
     }
 
     ID_CONTROL_MODE{
-      keyboardKey:i=15
+      keyboardKey:i=58
       mouseButton:i=4
     }
 
     ID_CONTROL_MODE{
-      keyboardKey:i=15
+      keyboardKey:i=58
       mouseButton:i=3
     }
 
@@ -1130,12 +1130,12 @@ controls{
     }
 
     ID_SWEEP_MODE{
-      keyboardKey:i=15
+      keyboardKey:i=58
       mouseButton:i=4
     }
 
     ID_SWEEP_MODE{
-      keyboardKey:i=15
+      keyboardKey:i=58
       mouseButton:i=3
     }
 
@@ -2380,12 +2380,12 @@ controls{
     }
 
     sweep_rangeMax{
-      keyboardKey:i=58
+      keyboardKey:i=15
       mouseButton:i=3
     }
 
     sweep_rangeMin{
-      keyboardKey:i=58
+      keyboardKey:i=15
       mouseButton:i=4
     }
 
@@ -2478,12 +2478,12 @@ controls{
     }
 
     vtol_rangeMax{
-      keyboardKey:i=58
+      keyboardKey:i=15
       mouseButton:i=4
     }
 
     vtol_rangeMin{
-      keyboardKey:i=58
+      keyboardKey:i=15
       mouseButton:i=3
     }
 
