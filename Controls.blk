@@ -552,6 +552,7 @@ controls{
       keyboardKey:i=52
     }
 
+    ID_OPEN_VISUAL_WEAPON_SELECTOR{}
     ID_PLANE_NIGHT_VISION{
       keyboardKey:i=49
     }
@@ -1156,6 +1157,7 @@ controls{
       keyboardKey:i=22
     }
 
+    ID_SWITCH_SHOOTING_CYCLE_COUNTER_MEASURE{}
     ID_SWITCH_SHOOTING_CYCLE_PRIMARY{
       keyboardKey:i=2
     }
