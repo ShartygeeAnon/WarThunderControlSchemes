@@ -1426,6 +1426,10 @@ controls{
       keyboardKey:i=19
     }
 
+    ID_WEAPON_LOCK_SHIP{
+      keyboardKey:i=19
+    }
+
     ID_WEAPON_LOCK_TANK{
       keyboardKey:i=19
     }
