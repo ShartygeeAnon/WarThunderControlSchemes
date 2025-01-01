@@ -2,7 +2,7 @@ controls{
   version:i=5
 
   basePresetPaths{
-    default:t="wt/config/hotkeys/hotkey.keyboard_updates.blk"
+    default:t="config/hotkeys/hotkey.keyboard_updates.blk"
   }
 
   hotkeys{
@@ -550,10 +550,6 @@ controls{
       keyboardKey:i=59
     }
 
-    ID_NEXT_BULLET_TYPE{
-      keyboardKey:i=52
-    }
-
     ID_OPEN_VISUAL_WEAPON_SELECTOR{}
     ID_PLANE_NIGHT_VISION{
       keyboardKey:i=49
@@ -910,10 +906,6 @@ controls{
       keyboardKey:i=44
     }
 
-    ID_SHIP_NEXT_BULLET_TYPE{
-      keyboardKey:i=52
-    }
-
     ID_SHIP_SELECT_TARGET_AI_MGUN{
       keyboardKey:i=29
       keyboardKey:i=4
@@ -1180,6 +1172,10 @@ controls{
       keyboardKey:i=49
     }
 
+    ID_TANK_SWITCH_FUSE_MODE{
+      keyboardKey:i=52
+    }
+
     ID_TARGETING_HOLD_GM{
       keyboardKey:i=6
     }
@@ -1259,6 +1255,11 @@ controls{
 
     ID_TOGGLE_CHAT_TEAM{
       keyboardKey:i=28
+    }
+
+    ID_TOGGLE_CONSTRUCTION_MODE{
+      keyboardKey:i=58
+      keyboardKey:i=44
     }
 
     ID_TOGGLE_GM_CROSSHAIR_LIGHTING{
