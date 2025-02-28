@@ -492,6 +492,10 @@ controls{
       keyboardKey:i=78
     }
 
+    ID_MANEVERABILITY_MODE{
+      keyboardKey:i=48
+    }
+
     ID_MFD_1_PAGE{
       keyboardKey:i=79
     }
@@ -713,6 +717,42 @@ controls{
       keyboardKey:i=4
     }
 
+    ID_SENSOR_DIRECTION_AXES_RESET{
+      keyboardKey:i=56
+      keyboardKey:i=16
+      keyboardKey:i=18
+    }
+
+    ID_SENSOR_DIRECTION_AXES_RESET{
+      keyboardKey:i=56
+      keyboardKey:i=30
+      keyboardKey:i=32
+    }
+
+    ID_SENSOR_DIRECTION_AXES_RESET{
+      keyboardKey:i=56
+      keyboardKey:i=17
+      keyboardKey:i=31
+    }
+
+    ID_SENSOR_DIRECTION_AXES_RESET_HELICOPTER{
+      keyboardKey:i=56
+      keyboardKey:i=16
+      keyboardKey:i=18
+    }
+
+    ID_SENSOR_DIRECTION_AXES_RESET_HELICOPTER{
+      keyboardKey:i=56
+      keyboardKey:i=30
+      keyboardKey:i=32
+    }
+
+    ID_SENSOR_DIRECTION_AXES_RESET_HELICOPTER{
+      keyboardKey:i=56
+      keyboardKey:i=17
+      keyboardKey:i=31
+    }
+
     ID_SENSOR_MODE_SWITCH{
       keyboardKey:i=5
     }
@@ -785,6 +825,16 @@ controls{
 
     ID_SENSOR_SCAN_PATTERN_SWITCH_TANK{
       keyboardKey:i=15
+      keyboardKey:i=4
+    }
+
+    ID_SENSOR_STABILIZATION_SWITCH{
+      keyboardKey:i=58
+      keyboardKey:i=4
+    }
+
+    ID_SENSOR_STABILIZATION_SWITCH_HELICOPTER{
+      keyboardKey:i=58
       keyboardKey:i=4
     }
 
@@ -1317,6 +1367,11 @@ controls{
       keyboardKey:i=41
     }
 
+    ID_TOGGLE_UAV_CAMERA{
+      keyboardKey:i=15
+      keyboardKey:i=50
+    }
+
     ID_TOGGLE_VIEW_GM{
       keyboardKey:i=47
     }
@@ -1611,16 +1666,6 @@ controls{
       keyboardKey:i=30
     }
 
-    gm_sensor_cue_x_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=32
-      keyboardKey:i=30
-    }
-
-    gm_sensor_cue_x_rangeSet{
-      keyboardKey:i=76
-    }
-
     gm_sensor_cue_y_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=17
@@ -1631,16 +1676,6 @@ controls{
       keyboardKey:i=31
     }
 
-    gm_sensor_cue_y_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=17
-      keyboardKey:i=31
-    }
-
-    gm_sensor_cue_y_rangeSet{
-      keyboardKey:i=76
-    }
-
     gm_sensor_cue_z_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=18
@@ -1649,16 +1684,6 @@ controls{
     gm_sensor_cue_z_rangeMin{
       keyboardKey:i=56
       keyboardKey:i=16
-    }
-
-    gm_sensor_cue_z_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=18
-      keyboardKey:i=16
-    }
-
-    gm_sensor_cue_z_rangeSet{
-      keyboardKey:i=76
     }
 
     gm_sight_distance_rangeSet{
@@ -1944,16 +1969,6 @@ controls{
       keyboardKey:i=30
     }
 
-    helicopter_sensor_cue_x_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=32
-      keyboardKey:i=30
-    }
-
-    helicopter_sensor_cue_x_rangeSet{
-      keyboardKey:i=76
-    }
-
     helicopter_sensor_cue_y_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=17
@@ -1964,16 +1979,6 @@ controls{
       keyboardKey:i=31
     }
 
-    helicopter_sensor_cue_y_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=17
-      keyboardKey:i=31
-    }
-
-    helicopter_sensor_cue_y_rangeSet{
-      keyboardKey:i=76
-    }
-
     helicopter_sensor_cue_z_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=18
@@ -1982,16 +1987,6 @@ controls{
     helicopter_sensor_cue_z_rangeMin{
       keyboardKey:i=56
       keyboardKey:i=16
-    }
-
-    helicopter_sensor_cue_z_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=18
-      keyboardKey:i=16
-    }
-
-    helicopter_sensor_cue_z_rangeSet{
-      keyboardKey:i=76
     }
 
     helicopter_throttle_rangeMax{
@@ -2142,16 +2137,6 @@ controls{
       keyboardKey:i=30
     }
 
-    sensor_cue_x_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=32
-      keyboardKey:i=30
-    }
-
-    sensor_cue_x_rangeSet{
-      keyboardKey:i=76
-    }
-
     sensor_cue_y_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=17
@@ -2162,16 +2147,6 @@ controls{
       keyboardKey:i=31
     }
 
-    sensor_cue_y_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=17
-      keyboardKey:i=31
-    }
-
-    sensor_cue_y_rangeSet{
-      keyboardKey:i=76
-    }
-
     sensor_cue_z_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=18
@@ -2180,16 +2155,6 @@ controls{
     sensor_cue_z_rangeMin{
       keyboardKey:i=56
       keyboardKey:i=16
-    }
-
-    sensor_cue_z_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=18
-      keyboardKey:i=16
-    }
-
-    sensor_cue_z_rangeSet{
-      keyboardKey:i=76
     }
 
     ship_camx_rangeMax{
@@ -2230,16 +2195,6 @@ controls{
       keyboardKey:i=30
     }
 
-    ship_sensor_cue_x_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=32
-      keyboardKey:i=30
-    }
-
-    ship_sensor_cue_x_rangeSet{
-      keyboardKey:i=76
-    }
-
     ship_sensor_cue_y_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=17
@@ -2250,16 +2205,6 @@ controls{
       keyboardKey:i=31
     }
 
-    ship_sensor_cue_y_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=17
-      keyboardKey:i=31
-    }
-
-    ship_sensor_cue_y_rangeSet{
-      keyboardKey:i=76
-    }
-
     ship_sensor_cue_z_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=18
@@ -2268,16 +2213,6 @@ controls{
     ship_sensor_cue_z_rangeMin{
       keyboardKey:i=56
       keyboardKey:i=16
-    }
-
-    ship_sensor_cue_z_rangeSet{
-      keyboardKey:i=56
-      keyboardKey:i=18
-      keyboardKey:i=16
-    }
-
-    ship_sensor_cue_z_rangeSet{
-      keyboardKey:i=76
     }
 
     ship_sight_distance_rangeSet{
@@ -3017,6 +2952,7 @@ controls{
     USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
     USEROPT_GUNNER_VIEW_SENSE:i=100
     USEROPT_GUNNER_VIEW_ZOOM_SENS:i=100
+    USEROPT_HOLD_BUTTON_FOR_TACTICAL_MAP:b=yes
     USEROPT_INSTRUCTOR_ENGINE_CONTROL:b=no
     USEROPT_INSTRUCTOR_FLAPS_CONTROL:b=no
     USEROPT_INSTRUCTOR_GEAR_CONTROL:b=no
@@ -3043,22 +2979,22 @@ controls{
   deviceMapping{
     joystick{
       connected:b=no
-      devId:t="x360"
-      axesOffset:i=0
-      name:t="Controller 1"
-      buttonsOffset:i=0
-      buttonsCount:i=28
-      axesCount:i=7
-    }
-
-    joystick{
-      connected:b=no
       devId:t="1234:BEAD"
       axesOffset:i=7
       name:t="vJoy Device"
       buttonsOffset:i=28
       buttonsCount:i=29
       axesCount:i=10
+    }
+
+    joystick{
+      connected:b=no
+      devId:t="x360"
+      axesOffset:i=0
+      name:t="Controller 1"
+      buttonsOffset:i=0
+      buttonsCount:i=28
+      axesCount:i=7
     }
 
     joystick{
