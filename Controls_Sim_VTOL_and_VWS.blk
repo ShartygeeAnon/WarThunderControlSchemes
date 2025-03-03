@@ -141,6 +141,11 @@ controls{
       keyboardKey:i=47
     }
 
+    ID_CENTER_MOUSE_JOYSTICK{
+      keyboardKey:i=15
+      keyboardKey:i=41
+    }
+
     ID_CHANGE_ARTILLERY_TARGETING_MODE{
       mouseButton:i=2
     }
@@ -404,6 +409,11 @@ controls{
 
     ID_GUIDED_BOMBS_LOCK_HELICOPTER{
       keyboardKey:i=19
+    }
+
+    ID_HELICOPTER_CENTER_MOUSE_JOYSTICK{
+      keyboardKey:i=15
+      keyboardKey:i=41
     }
 
     ID_HELICOPTER_TRIM{
