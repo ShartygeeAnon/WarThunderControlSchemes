@@ -504,7 +504,7 @@ controls{
       keyboardKey:i=78
     }
 
-    ID_MANEVERABILITY_MODE{
+    ID_MANEUVERABILITY_MODE{
       keyboardKey:i=48
     }
 
