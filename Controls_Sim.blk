@@ -1538,6 +1538,16 @@ controls{
       keyboardKey:i=29
     }
 
+    buoyancy_rangeMax{
+      keyboardKey:i=56
+      keyboardKey:i=17
+    }
+
+    buoyancy_rangeMin{
+      keyboardKey:i=56
+      keyboardKey:i=31
+    }
+
     cam_fwd_rangeMax{
       keyboardKey:i=17
     }
@@ -2536,6 +2546,10 @@ controls{
     brake_right{
       innerDeadzone:r=0
       relSens:r=0.81
+    }
+
+    buoyancy{
+      innerDeadzone:r=0
     }
 
     camx{
