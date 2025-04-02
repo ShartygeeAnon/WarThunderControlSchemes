@@ -712,7 +712,7 @@ controls{
     }
 
     ID_SELECT_GM_GUN_SPECIAL{
-      keyboardKey:i=35
+      keyboardKey:i=21
     }
 
     ID_SENSOR_ACM_SWITCH{
