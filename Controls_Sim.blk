@@ -748,6 +748,11 @@ controls{
       keyboardKey:i=31
     }
 
+    ID_SENSOR_DIRECTION_AXES_RESET{
+      keyboardKey:i=58
+      keyboardKey:i=36
+    }
+
     ID_SENSOR_DIRECTION_AXES_RESET_HELICOPTER{
       keyboardKey:i=56
       keyboardKey:i=16
@@ -764,6 +769,11 @@ controls{
       keyboardKey:i=56
       keyboardKey:i=17
       keyboardKey:i=31
+    }
+
+    ID_SENSOR_DIRECTION_AXES_RESET_HELICOPTER{
+      keyboardKey:i=58
+      keyboardKey:i=36
     }
 
     ID_SENSOR_MODE_SWITCH{
