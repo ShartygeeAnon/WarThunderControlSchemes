@@ -1348,6 +1348,11 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_TOGGLE_FUEL_DUMPING{
+      keyboardKey:i=58
+      keyboardKey:i=23
+    }
+
     ID_TOGGLE_GM_CROSSHAIR_LIGHTING{
       keyboardKey:i=53
     }
