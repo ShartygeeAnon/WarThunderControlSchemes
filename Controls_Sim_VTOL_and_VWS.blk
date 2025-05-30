@@ -1070,6 +1070,7 @@ controls{
       keyboardKey:i=58
       keyboardKey:i=44
     }
+
     ID_SLAVE_UNIT_SWITCH{
       keyboardKey:i=15
       keyboardKey:i=22
@@ -1103,8 +1104,8 @@ controls{
     }
 
     ID_START_UGV{
-      keyboardKey:i=15
-      keyboardKey:i=22
+      keyboardKey:i=58
+      keyboardKey:i=44
     }
 
     ID_SUBMARINE_ACOUSTIC_COUNTERMEASURES{}
