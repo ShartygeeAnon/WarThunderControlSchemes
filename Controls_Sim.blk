@@ -1316,6 +1316,11 @@ controls{
       keyboardKey:i=77
     }
 
+    ID_TOGGLE_AA_COMPLEX_MENU{
+      keyboardKey:i=15
+      keyboardKey:i=47
+    }
+
     ID_TOGGLE_AUTOTURRET_TARGETS{
       keyboardKey:i=15
       keyboardKey:i=34
