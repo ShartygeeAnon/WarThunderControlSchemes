@@ -1066,6 +1066,16 @@ controls{
       keyboardKey:i=45
     }
 
+    ID_SLAVE_UNIT_PROHIBIT_0{
+      keyboardKey:i=58
+      keyboardKey:i=2
+    }
+
+    ID_SLAVE_UNIT_PROHIBIT_1{
+      keyboardKey:i=58
+      keyboardKey:i=3
+    }
+
     ID_SLAVE_UNIT_SPAWN{
       keyboardKey:i=58
       keyboardKey:i=44
