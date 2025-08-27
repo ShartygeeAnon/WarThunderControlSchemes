@@ -681,6 +681,10 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_SCOUT_UAV{
+      keyboardKey:i=44
+    }
+
     ID_SCREENSHOT{
       keyboardKey:i=88
     }
