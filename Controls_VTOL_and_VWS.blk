@@ -398,6 +398,16 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_GROUP_SENSORS_MODE_SHIP{
+      keyboardKey:i=58
+      keyboardKey:i=4
+    }
+
+    ID_GROUP_SENSORS_MODE_TANK{
+      keyboardKey:i=58
+      keyboardKey:i=4
+    }
+
     ID_GUIDED_BOMBS{}
     ID_GUIDED_BOMBS_HELICOPTER{}
     ID_GUIDED_BOMBS_LOCK{
@@ -484,10 +494,6 @@ controls{
 
     ID_LOCK_TARGETING_AT_POINT{
       keyboardKey:i=22
-    }
-
-    ID_LOCK_TARGETING_AT_POINT_SHIP{
-      keyboardKey:i=48
     }
 
     ID_LOCK_TARGET_GM{
@@ -792,16 +798,8 @@ controls{
     }
 
     ID_SENSOR_RANGE_SWITCH{
-      keyboardKey:i=210
-    }
-
-    ID_SENSOR_RANGE_SWITCH{
       keyboardKey:i=15
       keyboardKey:i=5
-    }
-
-    ID_SENSOR_RANGE_SWITCH_HELICOPTER{
-      keyboardKey:i=210
     }
 
     ID_SENSOR_RANGE_SWITCH_HELICOPTER{
@@ -810,16 +808,8 @@ controls{
     }
 
     ID_SENSOR_RANGE_SWITCH_SHIP{
-      keyboardKey:i=210
-    }
-
-    ID_SENSOR_RANGE_SWITCH_SHIP{
       keyboardKey:i=15
       keyboardKey:i=5
-    }
-
-    ID_SENSOR_RANGE_SWITCH_TANK{
-      keyboardKey:i=210
     }
 
     ID_SENSOR_RANGE_SWITCH_TANK{
@@ -828,25 +818,13 @@ controls{
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH{
-      keyboardKey:i=211
-    }
-
-    ID_SENSOR_SCAN_PATTERN_SWITCH{
       keyboardKey:i=15
       keyboardKey:i=4
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH_HELICOPTER{
-      keyboardKey:i=211
-    }
-
-    ID_SENSOR_SCAN_PATTERN_SWITCH_HELICOPTER{
       keyboardKey:i=15
       keyboardKey:i=4
-    }
-
-    ID_SENSOR_SCAN_PATTERN_SWITCH_TANK{
-      keyboardKey:i=211
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH_TANK{
@@ -971,6 +949,10 @@ controls{
       keyboardKey:i=6
     }
 
+    ID_SHIP_COMBINE_PRI_SEC_TRIGGERS{
+      keyboardKey:i=48
+    }
+
     ID_SHIP_FULL_STOP{
       keyboardKey:i=17
       keyboardKey:i=31
@@ -1047,11 +1029,11 @@ controls{
     }
 
     ID_SHOW_MOUSE_CURSOR{
-      keyboardKey:i=184
+      keyboardKey:i=41
     }
 
     ID_SHOW_MULTIFUNC_WHEEL_MENU{
-      keyboardKey:i=41
+      keyboardKey:i=184
     }
 
     ID_SHOW_VOICE_MESSAGE_LIST{
