@@ -443,8 +443,20 @@ controls{
       keyboardKey:i=56
     }
 
+    ID_HUMAN_CRAWL{
+      keyboardKey:i=29
+    }
+
+    ID_HUMAN_CROUCH{
+      keyboardKey:i=46
+    }
+
     ID_HUMAN_NIGHT_VISION{
       keyboardKey:i=49
+    }
+
+    ID_HUMAN_ORDERS_MENU{
+      keyboardKey:i=44
     }
 
     ID_HUMAN_SMOKE_GRENADE{
@@ -1260,7 +1272,7 @@ controls{
     }
 
     ID_TARGETING_HOLD_HUMAN{
-      keyboardKey:i=33
+      keyboardKey:i=6
     }
 
     ID_TARGETING_HOLD_SHIP{
@@ -1276,6 +1288,10 @@ controls{
     }
 
     ID_TARGET_CAMERA_HELICOPTER{
+      keyboardKey:i=6
+    }
+
+    ID_TARGET_CAMERA_HUMAN_DRONE{
       keyboardKey:i=6
     }
 
@@ -1471,6 +1487,11 @@ controls{
     }
 
     ID_UNLOCK_TARGETING_AT_POINT_HELICOPTER{
+      keyboardKey:i=15
+      keyboardKey:i=33
+    }
+
+    ID_UNLOCK_TARGETING_AT_POINT_HUMAN_UAV{
       keyboardKey:i=15
       keyboardKey:i=33
     }
