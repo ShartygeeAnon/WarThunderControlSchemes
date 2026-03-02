@@ -1295,6 +1295,11 @@ controls{
       keyboardKey:i=6
     }
 
+    ID_THRUST_VECTORING_MODE{
+      keyboardKey:i=15
+      keyboardKey:i=48
+    }
+
     ID_TOGGLE_1_ENGINE_CONTROL{
       keyboardKey:i=181
       keyboardKey:i=79
@@ -1331,6 +1336,16 @@ controls{
     }
 
     ID_TOGGLE_AIR_RADAR_GUI_CONTROL_MODE{}
+    ID_TOGGLE_AIR_RADAR_NCTR_NAVIGATION{
+      keyboardKey:i=58
+      keyboardKey:i=5
+    }
+
+    ID_TOGGLE_AIR_RADAR_NCTR_NAVIGATION_HELICOPTER{
+      keyboardKey:i=58
+      keyboardKey:i=5
+    }
+
     ID_TOGGLE_AUTOTURRET_TARGETS{
       keyboardKey:i=15
       keyboardKey:i=34
