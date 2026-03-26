@@ -1,5 +1,6 @@
 controls{
   version:i=5
+  appliedFallbacksVer:i=1
 
   basePresetPaths{
     default:t="config/hotkeys/hotkey.keyboard_updates.blk"
@@ -185,6 +186,10 @@ controls{
     ID_CONTROL_MODE{
       keyboardKey:i=58
       mouseButton:i=3
+    }
+
+    ID_CONTROL_MODE_HUMAN_UAV{
+      keyboardKey:i=35
     }
 
     ID_COUNTERMEASURES_CHAFF{
@@ -459,6 +464,18 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_HUMAN_SHOOT_MELEE{
+      keyboardKey:i=47
+    }
+
+    ID_HUMAN_SIGHT_NEXT{
+      mouseButton:i=4
+    }
+
+    ID_HUMAN_SIGHT_PREV{
+      mouseButton:i=3
+    }
+
     ID_HUMAN_SMOKE_GRENADE{
       keyboardKey:i=22
     }
@@ -469,6 +486,10 @@ controls{
 
     ID_HUMAN_TOGGLE_RANGEFINDER{
       keyboardKey:i=45
+    }
+
+    ID_HUMAN_USE_MEDKIT{
+      keyboardKey:i=35
     }
 
     ID_IGNITE_BOOSTERS{
@@ -580,6 +601,10 @@ controls{
       keyboardKey:i=59
     }
 
+    ID_NEXT_PLANE{
+      keyboardKey:i=21
+    }
+
     ID_OPEN_VISUAL_WEAPON_SELECTOR{}
     ID_PLANE_NIGHT_VISION{
       keyboardKey:i=49
@@ -587,6 +612,10 @@ controls{
 
     ID_PLANE_SMOKE_SCREEN_GENERATOR{
       keyboardKey:i=24
+    }
+
+    ID_PREV_PLANE{
+      keyboardKey:i=20
     }
 
     ID_PROP_PITCH_AUTO{
@@ -618,6 +647,10 @@ controls{
       keyboardKey:i=52
     }
 
+    ID_REPAIR_HUMAN{
+      keyboardKey:i=33
+    }
+
     ID_REPAIR_TANK{
       keyboardKey:i=33
     }
@@ -626,14 +659,24 @@ controls{
       keyboardKey:i=66
     }
 
+    ID_REPLAY_CAMERA_FLYBY{
+      keyboardKey:i=5
+    }
+
+    ID_REPLAY_CAMERA_FREE{
+      keyboardKey:i=7
+    }
+
     ID_REPLAY_CAMERA_FREE_ATTACHED{
-      keyboardKey:i=29
-      keyboardKey:i=66
+      keyboardKey:i=10
     }
 
     ID_REPLAY_CAMERA_FREE_PARENTED{
-      keyboardKey:i=29
-      keyboardKey:i=65
+      keyboardKey:i=9
+    }
+
+    ID_REPLAY_CAMERA_GUN{
+      keyboardKey:i=3
     }
 
     ID_REPLAY_CAMERA_HORIZONTAL_LOCK{
@@ -641,8 +684,7 @@ controls{
     }
 
     ID_REPLAY_CAMERA_HOVER{
-      keyboardKey:i=29
-      keyboardKey:i=67
+      keyboardKey:i=11
     }
 
     ID_REPLAY_CAMERA_LOCK_SPEED{
@@ -654,16 +696,55 @@ controls{
     }
 
     ID_REPLAY_CAMERA_NEXT_PLANE{
-      keyboardKey:i=207
+      keyboardKey:i=13
+    }
+
+    ID_REPLAY_CAMERA_OPERATOR{
+      keyboardKey:i=6
+    }
+
+    ID_REPLAY_CAMERA_RANDOMIZE{
+      keyboardKey:i=8
     }
 
     ID_REPLAY_CAMERA_TWO_PLANES{
-      keyboardKey:i=29
-      keyboardKey:i=68
+      keyboardKey:i=12
     }
 
     ID_REPLAY_CAMERA_WIGGLE{
       keyboardKey:i=43
+    }
+
+    ID_REPLAY_CAMERA_WING{
+      keyboardKey:i=4
+    }
+
+    ID_REPLAY_CAMERA_ZOOM_IN{
+      keyboardKey:i=19
+    }
+
+    ID_REPLAY_CAMERA_ZOOM_IN{
+      mouseButton:i=5
+    }
+
+    ID_REPLAY_CAMERA_ZOOM_OUT{
+      keyboardKey:i=33
+    }
+
+    ID_REPLAY_CAMERA_ZOOM_OUT{
+      mouseButton:i=6
+    }
+
+    ID_REPLAY_FASTER{
+      mouseButton:i=4
+    }
+
+    ID_REPLAY_RESET_CAMERA_ROLL{
+      keyboardKey:i=45
+    }
+
+    ID_REPLAY_SLOWER{
+      mouseButton:i=3
     }
 
     ID_REPLAY_TOGGLE_DETACHED_MOVE_DIR{
@@ -671,7 +752,7 @@ controls{
     }
 
     ID_REPLAY_TOGGLE_SENSOR_VIEW{
-      keyboardKey:i=14
+      mouseButton:i=2
     }
 
     ID_REQUEST_DETECT_ALLY_HELI{
@@ -1368,6 +1449,10 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_TOGGLE_FOLLOWING_CAMERA{
+      keyboardKey:i=2
+    }
+
     ID_TOGGLE_FUEL_DUMPING{
       keyboardKey:i=58
       keyboardKey:i=23
@@ -1607,16 +1692,16 @@ controls{
       keyboardKey:i=17
     }
 
-    cam_fwd_rangeMax{
-      keyboardKey:i=42
-    }
-
     cam_fwd_rangeMin{
       keyboardKey:i=31
     }
 
-    cam_fwd_rangeMin{
-      keyboardKey:i=29
+    cam_roll_rangeMax{
+      keyboardKey:i=44
+    }
+
+    cam_roll_rangeMin{
+      keyboardKey:i=46
     }
 
     cam_strafe_rangeMax{
@@ -2132,6 +2217,61 @@ controls{
 
     human_strafe_rangeMin{
       keyboardKey:i=30
+    }
+
+    human_uav_climb_rangeMax{
+      keyboardKey:i=42
+    }
+
+    human_uav_climb_rangeMin{
+      keyboardKey:i=29
+    }
+
+    human_uav_climb_rangeSet{
+      keyboardKey:i=15
+      keyboardKey:i=35
+    }
+
+    human_uav_pitch_rangeMax{
+      keyboardKey:i=31
+    }
+
+    human_uav_pitch_rangeMin{
+      keyboardKey:i=17
+    }
+
+    human_uav_roll_rangeMax{
+      keyboardKey:i=32
+    }
+
+    human_uav_roll_rangeMin{
+      keyboardKey:i=30
+    }
+
+    human_uav_throttle_rangeMax{
+      keyboardKey:i=42
+    }
+
+    human_uav_throttle_rangeMax{
+      keyboardKey:i=58
+      mouseButton:i=5
+    }
+
+    human_uav_throttle_rangeMin{
+      keyboardKey:i=29
+    }
+
+    human_uav_throttle_rangeMin{
+      keyboardKey:i=58
+      mouseButton:i=6
+    }
+
+    human_uav_yaw_rangeMax{
+      keyboardKey:i=18
+    }
+
+    human_uav_yaw_rangeMin{
+      keyboardKey:i=16
     }
 
     human_walk_rangeMax{
@@ -2804,6 +2944,32 @@ controls{
       relSens:r=0.81
     }
 
+    human_uav_pitch{
+      axisId:i=10
+      mouseAxisId:i=1
+      innerDeadzone:r=0
+      relSens:r=0.64
+    }
+
+    human_uav_roll{
+      axisId:i=11
+      mouseAxisId:i=0
+      innerDeadzone:r=0
+      relSens:r=0.81
+    }
+
+    human_uav_throttle{
+      axisId:i=13
+      innerDeadzone:r=0
+      relSens:r=0.49
+    }
+
+    human_uav_yaw{
+      axisId:i=12
+      innerDeadzone:r=0
+      relSens:r=0.49
+    }
+
     human_walk{
       relSens:r=0.81
     }
@@ -3102,6 +3268,7 @@ settings{
   replayCameraWiggle:r=0
   zoomSens:r=0
   mouseSens:r=0.3
+  humanMouseSens:r=0.3
   mouseAimSens:r=0.5
   gunnerViewSens:r=1
   gunnerViewZoomSens:r=1
@@ -3130,12 +3297,14 @@ settings{
   aimTimeNonlinearityWalker:r=0
   aimTimeNonlinearityShip:r=0
   aimTimeNonlinearitySubmarine:r=0
+  aimTimeNonlinearityHuman:r=0
   aimAccelerationDelayAir:r=0.5
   aimAccelerationDelayHelicopter:r=0.5
   aimAccelerationDelayTank:r=0.5
   aimAccelerationDelayWalker:r=0.5
   aimAccelerationDelayShip:r=0.5
   aimAccelerationDelaySubmarine:r=0.5
+  aimAccelerationDelayHuman:r=0.5
   mouseZMultAir:r=0.5
   mouseZMultHelicopter:r=0.5
   mouseZMultTank:r=0.5
@@ -3151,6 +3320,7 @@ settings{
   invertX:b=no
   invertT:b=no
   invertYTank:b=no
+  invertYHuman:b=no
   invertYShip:b=no
   invertYHelicopter:b=no
   invertYHelicopterGunner:b=no
