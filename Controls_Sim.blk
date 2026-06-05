@@ -916,6 +916,18 @@ controls{
       keyboardKey:i=36
     }
 
+    ID_SENSOR_MODES_SWITCH{
+      keyboardKey:i=58
+      keyboardKey:i=15
+      keyboardKey:i=36
+    }
+
+    ID_SENSOR_MODES_SWITCH_HELICOPTER{
+      keyboardKey:i=58
+      keyboardKey:i=15
+      keyboardKey:i=36
+    }
+
     ID_SENSOR_MODE_SWITCH{
       keyboardKey:i=5
     }
@@ -1527,6 +1539,10 @@ controls{
     }
 
     ID_TOGGLE_LASER_DESIGNATOR_HELICOPTER{
+      keyboardKey:i=39
+    }
+
+    ID_TOGGLE_LASER_DESIGNATOR_TANK{
       keyboardKey:i=39
     }
 
