@@ -1,6 +1,6 @@
 controls{
   version:i=5
-  appliedFallbacksVer:i=1
+  appliedFallbacksVer:i=3
 
   basePresetPaths{
     default:t="config/hotkeys/hotkey.keyboard_updates.blk"
@@ -39,6 +39,39 @@ controls{
 
     ID_AGM_LOCK_HELICOPTER{
       keyboardKey:i=19
+    }
+
+    ID_AIM_MEM_POINT_ADD{
+      keyboardKey:i=58
+      keyboardKey:i=33
+    }
+
+    ID_AIM_MEM_POINT_DEL{
+      keyboardKey:i=56
+      keyboardKey:i=33
+    }
+
+    ID_AIM_MEM_POINT_EDIT_SEL_TOGGLE{
+      keyboardKey:i=15
+      keyboardKey:i=58
+      keyboardKey:i=33
+    }
+
+    ID_AIM_MEM_POINT_LINK_WEAPON{
+      keyboardKey:i=15
+      keyboardKey:i=56
+      keyboardKey:i=33
+    }
+
+    ID_AIM_MEM_POINT_SALVO_FIRE{
+      keyboardKey:i=56
+      keyboardKey:i=57
+    }
+
+    ID_AIM_MEM_POINT_UNLINK_WEAPON{
+      keyboardKey:i=58
+      keyboardKey:i=56
+      keyboardKey:i=33
     }
 
     ID_AIR_REVERSE{
@@ -111,6 +144,16 @@ controls{
       keyboardKey:i=67
     }
 
+    ID_CAMERA_SHELL_FPV{
+      keyboardKey:i=15
+      keyboardKey:i=47
+    }
+
+    ID_CAMERA_SHELL_FPV_HELICOPTER{
+      keyboardKey:i=15
+      keyboardKey:i=47
+    }
+
     ID_CAMERA_TPS{
       keyboardKey:i=60
     }
@@ -125,18 +168,8 @@ controls{
       keyboardKey:i=61
     }
 
-    ID_CAMERA_VIRTUAL_FPS{
-      keyboardKey:i=15
-      keyboardKey:i=47
-    }
-
     ID_CAMERA_VIRTUAL_FPS_HELICOPTER{
       keyboardKey:i=61
-    }
-
-    ID_CAMERA_VIRTUAL_FPS_HELICOPTER{
-      keyboardKey:i=15
-      keyboardKey:i=47
     }
 
     ID_CENTER_MOUSE_JOYSTICK{
@@ -375,6 +408,10 @@ controls{
     }
 
     ID_FLARES{}
+    ID_FLIGHTMENU{
+      keyboardKey:i=1
+    }
+
     ID_FLIGHTMENU_SETUP{
       joyButton:i=4
     }
