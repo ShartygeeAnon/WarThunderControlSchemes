@@ -67,6 +67,8 @@ controls{
       keyboardKey:i=57
     }
 
+    ID_AIM_MEM_POINT_SEL_NEXT{}
+    ID_AIM_MEM_POINT_SEL_PREV{}
     ID_AIM_MEM_POINT_UNLINK_WEAPON{
       keyboardKey:i=58
       keyboardKey:i=56
