@@ -52,9 +52,8 @@ controls{
     }
 
     ID_AIM_MEM_POINT_EDIT_SEL_TOGGLE{
-      keyboardKey:i=15
       keyboardKey:i=58
-      keyboardKey:i=33
+      keyboardKey:i=22
     }
 
     ID_AIM_MEM_POINT_LINK_WEAPON{
@@ -1370,11 +1369,6 @@ controls{
     ID_SWITCH_COCKPIT_SIGHT_MODE_HELICOPTER{
       keyboardKey:i=43
       keyboardKey:i=26
-    }
-
-    ID_SWITCH_REGISTERED_BOMB_TARGETING_POINT{
-      keyboardKey:i=58
-      keyboardKey:i=22
     }
 
     ID_SWITCH_SHOOTING_CYCLE_COUNTER_MEASURE{}
