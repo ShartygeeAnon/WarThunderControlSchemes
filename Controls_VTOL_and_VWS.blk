@@ -58,7 +58,7 @@ controls{
 
     ID_AIM_MEM_POINT_LINK_WEAPON{
       keyboardKey:i=15
-      keyboardKey:i=56
+      keyboardKey:i=58
       keyboardKey:i=33
     }
 
