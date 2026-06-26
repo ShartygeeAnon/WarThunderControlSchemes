@@ -84,7 +84,7 @@ controls{
     }
 
     ID_AIR_REVERSE{
-      keyboardKey:i=15
+      keyboardKey:i=58
       keyboardKey:i=23
     }
 
@@ -439,7 +439,7 @@ controls{
     }
 
     ID_FUEL_TANKS{
-      keyboardKey:i=58
+      keyboardKey:i=15
       keyboardKey:i=57
     }
 
@@ -557,12 +557,12 @@ controls{
     }
 
     ID_JETTISON_SECONDARY{
-      keyboardKey:i=15
+      keyboardKey:i=58
       keyboardKey:i=57
     }
 
     ID_JETTISON_SECONDARY_HELICOPTER{
-      keyboardKey:i=15
+      keyboardKey:i=58
       keyboardKey:i=57
     }
 
@@ -1512,7 +1512,7 @@ controls{
     }
 
     ID_TOGGLE_FUEL_DUMPING{
-      keyboardKey:i=58
+      keyboardKey:i=15
       keyboardKey:i=23
     }
 
