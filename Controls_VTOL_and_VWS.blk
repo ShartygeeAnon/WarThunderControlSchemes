@@ -199,7 +199,8 @@ controls{
     }
 
     ID_CHUTE{
-      keyboardKey:i=24
+      keyboardKey:i=29
+      keyboardKey:i=23
     }
 
     ID_COLLAPSE_ACTION_BAR{}
