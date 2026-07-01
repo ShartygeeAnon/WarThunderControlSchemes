@@ -1155,6 +1155,10 @@ controls{
       keyboardKey:i=19
     }
 
+    ID_SHIP_WEAPON_ROCKETS{
+      mouseButton:i=3
+    }
+
     ID_SHIP_WEAPON_PRIMARY{
       keyboardKey:i=42
       keyboardKey:i=2

@@ -1163,6 +1163,10 @@ controls{
       keyboardKey:i=2
     }
 
+    ID_SHIP_WEAPON_ROCKETS{
+      mouseButton:i=3
+    }
+
     ID_SHIP_WEAPON_SECONDARY{
       keyboardKey:i=42
       keyboardKey:i=3
