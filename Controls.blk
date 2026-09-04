@@ -244,12 +244,22 @@ controls{
       keyboardKey:i=45
     }
 
+    ID_COUNTERMEASURES_TOWED_DECOY{
+      keyboardKey:i=56
+      keyboardKey:i=45
+    }
+
     ID_COUNTERMEASURE_CHAFF_HELICOPTER{
       keyboardKey:i=15
       keyboardKey:i=45
     }
 
     ID_COUNTERMEASURE_FLARES_HELICOPTER{
+      keyboardKey:i=45
+    }
+
+    ID_COUNTERMEASURE_TOWED_DECOY_HELICOPTER{
+      keyboardKey:i=56
       keyboardKey:i=45
     }
 
