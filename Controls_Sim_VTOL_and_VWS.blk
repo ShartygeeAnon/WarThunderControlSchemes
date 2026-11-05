@@ -1501,12 +1501,14 @@ controls{
     }
 
     ID_TOGGLE_BOMBS_AUTO_RELEASE{
-      keyboardKey:i=56
+      keyboardKey:i=15
+      keyboardKey:i=58
       keyboardKey:i=22
     }
 
     ID_TOGGLE_BOMBS_AUTO_RELEASE_HELICOPTER{
-      keyboardKey:i=56
+      keyboardKey:i=15
+      keyboardKey:i=58
       keyboardKey:i=22
     }
 
