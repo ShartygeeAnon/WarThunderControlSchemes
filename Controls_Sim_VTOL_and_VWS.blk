@@ -950,6 +950,18 @@ controls{
       keyboardKey:i=36
     }
 
+    ID_SENSOR_MODES_SWITCH_SHIP{
+      keyboardKey:i=15
+      keyboardKey:i=58
+      keyboardKey:i=36
+    }
+
+    ID_SENSOR_MODES_SWITCH_TANK{
+      keyboardKey:i=15
+      keyboardKey:i=58
+      keyboardKey:i=36
+    }
+
     ID_SENSOR_MODE_SWITCH{
       keyboardKey:i=5
     }
@@ -1114,6 +1126,16 @@ controls{
       keyboardKey:i=6
     }
 
+    ID_SHIP_BOMB_CYCLE_DEPTH{
+      keyboardKey:i=15
+      keyboardKey:i=20
+    }
+
+    ID_SHIP_BOMB_CYCLE_DEPTH_BACK{
+      keyboardKey:i=58
+      keyboardKey:i=20
+    }
+
     ID_SHIP_COMBINE_PRI_SEC_TRIGGERS{
       keyboardKey:i=48
     }
@@ -1161,22 +1183,21 @@ controls{
     }
 
     ID_SHIP_WEAPON_MINE{
-      keyboardKey:i=15
       keyboardKey:i=20
     }
 
     ID_SHIP_WEAPON_MORTAR{
-      keyboardKey:i=15
-      keyboardKey:i=19
-    }
-
-    ID_SHIP_WEAPON_ROCKETS{
-      mouseButton:i=3
+      keyboardKey:i=56
+      keyboardKey:i=20
     }
 
     ID_SHIP_WEAPON_PRIMARY{
       keyboardKey:i=42
       keyboardKey:i=2
+    }
+
+    ID_SHIP_WEAPON_ROCKETS{
+      mouseButton:i=3
     }
 
     ID_SHIP_WEAPON_SECONDARY{
